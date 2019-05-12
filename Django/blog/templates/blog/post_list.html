@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="{% static 'css/blog2.css' %}">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-sm bg-light ">
+
+		  <ul class="navbar-nav ml-auto">
+			  <li class="nav-item">
+			  	<a class="nav-link" href="#">Link 1</a>
+			  </li>
+			  <li class="nav-item">
+			  	<a class="nav-link" href="#">Link 2</a>
+			  </li>
+			  <li class="nav-item">
+			  	<a class="nav-link" href="#">Link 3</a>
+			  </li>
+		  </ul>
+		</nav>
+		<div class="container">
+			<h1 class="title mt-5">TeachMore</h1>
+			<p>Procurando professores particulares para te ajudar na escola, faculdade,
+			cursos extracurriculares e muito mais? Você está no lugar certo, temos diversos
+			professores das mais variadas áreas de conhecimento!</p>
+<!--			<div class="circulo"></div>-->
+<!--			<div class="circulo1"></div>-->
+			<form class="ml-2 row" action="/professores/">
+				<input type="text" class="form-control  col-sm-4 mr-1" id="professor">
+				<button type="submit" class="btn btn-primary col-sm-1">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>

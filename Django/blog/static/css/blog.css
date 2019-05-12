@@ -1,0 +1,46 @@
+body{
+	background-image:url("/static/images/back.jpg");
+	background-size: 800px auto;
+	background-position: right;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 110px;
+	color: #066ECF;
+	position: center;
+	margin: 13% 0 0 10%;
+}
+
+p {
+	width: 500px;
+	margin: 2% 0 0 10%;
+	text-align: justify;
+
+}
+
+.circulo{
+	position: fixed;
+	bottom: 0;
+	background: #44ABF1;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-bottom: -240px;
+	margin-left: -50px;
+}
+
+.circulo1{
+	position: fixed;
+	bottom: 0;
+	background: #44ABF1;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-bottom: -240px;
+	margin-left: -50px;
+}
+

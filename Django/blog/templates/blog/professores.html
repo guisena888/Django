@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professores</title>
+
+    {% for professor in professores %}
+
+        <h1>{{ professor.nome }}</h1>
+        <p>{{ professor.email }}<br></p>
+
+        {% for area in professor.get_area %}
+            <p>{{ area }}</p>
+        {% endfor %}
+
+    {% endfor %}
+</head>
+<body>
+
+</body>
+</html>
